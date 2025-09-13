@@ -29,13 +29,6 @@ jobs:
         with:
           fetch-depth: 0
           # 如果使用了 chirpy-starter 的 assets 子模块，打开下行注释
-
-      - name: Fetch theme assets
-        uses: actions/checkout@v4
-        with:
-          repository: cotes2020/chirpy-static-assets
-          ref: main
-          path: assets
       
       - name: Setup Pages
         id: pages

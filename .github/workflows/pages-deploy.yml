@@ -34,7 +34,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: cotes2020/chirpy-static-assets
-          ref: master
+          ref: main
           path: assets
       
       - name: Setup Pages
